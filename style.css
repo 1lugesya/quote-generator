@@ -1,0 +1,78 @@
+body {
+ background-image: url("https://images3.alphacoders.com/749/74987.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(2px) ;
+  text-align: center;
+}
+
+div {
+  color: rgb(11, 19, 26);
+  padding: 40px;
+  margin: 10px;
+  font-size: larger;
+ 
+}
+
+.quote {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  padding: 40px;
+  margin: 10px;
+  background-position: center center;
+  background-size: cover;
+
+
+}
+
+#quote1{
+  padding-top: 200px;
+
+}
+
+
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#c39cca;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(141, 88, 119);
+}
+.button:hover {background-color: #a3409e}
+.button:active {
+  background-color: #a16698;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container
+{
+  background-color: rgb(112, 37, 119);
+  opacity:0.6;
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  filter:alpha(opacity=80)
+  display: flex-end;
+  padding-bottom: 80px;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  width: 500px;
+  transition: 0.5;
+  transition-timing-function: ease-in;
+  align-items: center;
+  box-sizing: content-box;
+
+}
